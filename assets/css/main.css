@@ -2572,6 +2572,27 @@ input, select, textarea {
 			margin: 0;
 		}
 
+/* 讓 game-item 繼承 work-item 的所有外觀數值 */
+	.game-item {
+		margin: 0 0 2em 0;
+	}
+
+	.game-item .image {
+		margin: 0 0 1.5em 0;
+		display: block;
+	}
+
+	.game-item h3 {
+		font-size: 1em;
+		margin: 0 0 0.5em 0;
+	}
+
+	.game-item p {
+		font-size: 0.8em;
+		line-height: 1.5em;
+		margin: 0;
+	}
+
 /* Header */
 
 	#header {

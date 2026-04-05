@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Puzzle - KunLinWeb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background-gradient"></div>
+    
+    <header>
+        <a href="../index.html" class="back-btn">← Home</a>
+        <div class="level-info">
+            <h2 id="level-display">LEVEL 1</h2>
+            <div class="progress-bar"><div id="progress"></div></div>
+        </div>
+    </header>
+
+    <main id="game-container"></main>
+
+    <div id="ui-layer">
+        <button onclick="resetLevel()" class="ui-btn">重置本關</button>
+        <div id="msg"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
